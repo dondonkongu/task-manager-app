@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Typography, Divider } from 'antd'
 import Filter from './components/Filters'
+import TodoList from './components/TodoList'
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
       <Title style={{textAlign:'center'}}>Task manager with Redux</Title>
       <Filter/>
       <Divider/>
-
+      <TodoList/>
     </div>
     </>
   )
